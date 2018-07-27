@@ -30,7 +30,7 @@ function currentLine(katzDeliLine) {
 
     while ( i < katzDeliLine.length) {
       var number = i + 1;
-      array[i] = katzDeliLine[i];
+      array[i] = number + ". " katzDeliLine[i];
       i = i + 1;
    }
     return "The line is currently: " + array
